@@ -1,0 +1,12 @@
+li {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+#aktiviteettiLista{
+  width: 100%;
+}
+
+#lista {
+  font-size: 20px;
+}
