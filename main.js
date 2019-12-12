@@ -1,6 +1,6 @@
 $(function()
 {
-  $("#lista").keyup(function(evt) {
+  $("#lista").keydown(function(evt) {
     if (evt.which == 13) {
       var aktiviteetti = $("#lista").val();
       if (aktiviteetti.length < 2) { return false; }
